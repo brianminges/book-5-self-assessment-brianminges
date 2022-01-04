@@ -1,0 +1,24 @@
+
+
+.radioWrapper {
+    display: flex;
+  }
+
+.field {
+  display: flex;
+  flex-direction: column;
+  font-family: "Comfortaa", Arial, sans-serif;
+  padding-bottom: 10px;
+}
+
+.dropdown {
+  width: 200px;
+}
+
+.textArea {
+  width: 600px;
+}
+
+.label {
+  font-weight: bold;
+}

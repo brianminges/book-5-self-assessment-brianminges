@@ -1,0 +1,58 @@
+{
+    "authors": [
+        {
+            "id": 1,
+            "name": "Mark Twain",
+            "email": "sclemens@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "Ray Bradbury",
+            "email": "bradbury451@yahoo.com"
+        },
+        {
+            "id": 3,
+            "name": "Bob Woodward",
+            "email:": "bwoodward@washpost.com"
+        },
+        {
+            "id": 4,
+            "name": "Dr. Seuss",
+            "email": "CatInHatFan@grinch.com"
+        },
+        {
+            "id": 5,
+            "name": "Ernest Hemingway",
+            "email": "oldman2@gmail.com"
+        }
+    ],
+    "recipients": [
+        {
+            "id": 1,
+            "name": "Mark Twain",
+            "email": "sclemens@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "Ray Bradbury",
+            "email": "bradbury451@yahoo.com"
+        },
+        {
+            "id": 3,
+            "name": "Bob Woodward",
+            "email:": "bwoodward@washpost.com"
+        },
+        {
+            "id": 4,
+            "name": "Dr. Seuss",
+            "email": "CatInHatFan@grinch.com"
+        },
+        {
+            "id": 5,
+            "name": "Ernest Hemingway",
+            "email": "oldman2@gmail.com"
+        }
+    ],
+    "letters": [
+    ]
+}
