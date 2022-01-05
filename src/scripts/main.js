@@ -36,4 +36,9 @@ const render = () => {
 
 render()
 
-
+mainContainer.addEventListener(
+    "stateChanged",
+    customEvent => {
+        render()
+    }
+)

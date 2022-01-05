@@ -55,3 +55,23 @@ export const fetchLetters = () => {
 export const getLetters = () => {
     return applicationState.letters.map(letter => ({...letter}))
 }
+
+
+//This sends user input from form to API for permanent storage
+export const sendLetter = (letterInfo) => {
+    const fetchOptions = {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(letterInfo)
+        
+    }
+
+    return fetch(`${API}/letters`, fetchOptions)
+        .then(response => response.json())
+        .then(() => {
+            const mainContainer = document.querySelector("#container")
+            mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
+        })
+}
