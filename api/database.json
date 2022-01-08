@@ -13,7 +13,7 @@
     {
       "id": 3,
       "name": "Bob Woodward",
-      "email:": "bwoodward@washpost.com"
+      "email": "tips@washpost.com"
     },
     {
       "id": 4,
@@ -40,7 +40,7 @@
     {
       "id": 3,
       "name": "Bob Woodward",
-      "email:": "bwoodward@washpost.com"
+      "email": "tips@washpost.com"
     },
     {
       "id": 4,
@@ -55,28 +55,28 @@
   ],
   "letters": [
     {
-      "author": "2",
-      "text": "Text goz here.",
-      "recipient": "1",
-      "category": "friendly",
-      "date": "1/7/2022",
-      "id": 3
-    },
-    {
-      "author": "2",
-      "text": "Text goz here and here and here and here. And here and here and here and here.",
-      "recipient": "1",
-      "category": "condolences",
-      "date": "1/7/2022",
+      "author": "5",
+      "text": "Caught a fish today. Was a big one. Had to let it go. ",
+      "recipient": "4",
+      "category": "business",
+      "date": "1/8/2022",
       "id": 4
     },
     {
-      "author": "5",
-      "text": "Here is some more text. ",
-      "recipient": "1",
-      "category": "family",
-      "date": "1/7/2022",
+      "author": "4",
+      "text": "Happy to hear it. That inspires me to write a book. I'll call it \"One fish, Two fish, Red fish, Blue fish.\" Kids will love it. ",
+      "recipient": "5",
+      "category": "friendly",
+      "date": "1/8/2022",
       "id": 5
+    },
+    {
+      "author": "3",
+      "text": "A source told me you caught a large fish but had to let it go. I would love to hear the details. Are you interested in an interview? ",
+      "recipient": "5",
+      "category": "business",
+      "date": "1/8/2022",
+      "id": 6
     }
   ]
 }
