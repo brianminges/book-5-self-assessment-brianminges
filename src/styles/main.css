@@ -3,10 +3,14 @@
   flex-wrap: wrap;
 }
 
+h1, h2 {
+  font-family: "Patua One", Arial, Helvetica, sans-serif
+}
+
 .field {
   display: flex;
   flex-direction: column;
-  font-family: "Comfortaa", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 10px;
 }
 
@@ -25,4 +29,30 @@
 
 input[type="radio"]{
   margin-right: 50px;
+}
+
+.letter {
+  margin-top: 3px;
+  background-color: lightblue;
+  padding: 20px 20px 40px 20px;
+  font-family: "Comfortaa", Arial, sans-serif;
+  list-style: none;
+}
+
+.listOfLetters {
+  list-style: none;
+  padding-left: 0;
+}
+
+#sentOn {
+  font-size: .75em;
+  padding-bottom: 10px;
+}
+
+#letterButton {
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px gray;
+  background-color: bisque;
+  padding: 10px;
+  border: 1px solid black;
 }

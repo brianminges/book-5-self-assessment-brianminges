@@ -1,5 +1,5 @@
-import { getAuthors, fetchAuthors, getRecipients, fetchRecipients, getLetters, fetchLetters, sendLetter } from "./dataAccess.js";
- 
+import { getAuthors, getRecipients, fetchRecipients, getLetters, sendLetter } from "./dataAccess.js";
+
 export const letterForm = () => {
    
     const authors = getAuthors()
@@ -81,17 +81,18 @@ mainContainer.addEventListener("click", clickEvent => {
         const textOfLetter = document.querySelector("textarea[name='letterText']").value;
         const recipientOfLetter = document.getElementById("recipients").value;
         const category = document.querySelector("input[name='radioBtns']:checked").value;
-        
+
         //Create an object out of that data
         const dataToSendToAPI = {
             author: authorOfLetter,
             text: textOfLetter,
             recipient: recipientOfLetter,
             category: category,
-            date: Date.now()
+            date: (new Date()).toLocaleDateString()
         }
 
         //Send the data to the API for permanent storage
         sendLetter(dataToSendToAPI)
     }
 })
+
