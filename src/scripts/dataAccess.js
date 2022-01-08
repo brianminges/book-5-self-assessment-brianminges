@@ -23,6 +23,7 @@ export const getAuthors = () => {
 }
 
 
+
 //This returns the recipients from the API and stores them in applicationState.recipients
 export const fetchRecipients = () => {
     return fetch(`${API}/recipients`)
@@ -39,6 +40,7 @@ export const getRecipients = () => {
     return applicationState.recipients.map(recipient => ({...recipient})) 
 }
  
+
 
 //This returns the letters from the API and stores them in applicationState.letters
 export const fetchLetters = () => {
