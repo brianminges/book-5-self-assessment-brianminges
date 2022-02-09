@@ -77,6 +77,22 @@
       "category": "business",
       "date": "1/8/2022",
       "id": 6
+    },
+    {
+      "author": "1",
+      "text": "How big are the fish down there? Are they bigger than what we have in the Mississippi River? Maybe we should get in the fishing business.",
+      "recipient": "5",
+      "category": "business",
+      "date": "1/8/2022",
+      "id": 7
+    },
+    {
+      "author": "1",
+      "text": "Test",
+      "recipient": "2",
+      "category": "friendly",
+      "date": "1/8/2022",
+      "id": 8
     }
   ]
 }
